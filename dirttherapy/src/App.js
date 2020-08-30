@@ -8,17 +8,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p id="openingText" >
           Dirt Therapy TK is a project covering some of the things I do to make it through the day.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+
+        <p id="comeAlong">
           I don't know exactly where it will go, but you're welcome to come along for the ride.
-        </a>
+          </p>
+
       </header>
     </div>
   );
